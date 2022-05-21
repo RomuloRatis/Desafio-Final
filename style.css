@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body{
+    max-width: 1900px;
+    margin: 0 auto;
+}
+
+Header{
+    background-image: url(Imagens/star\ uó\ topo.png);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+}
+
+.container-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 380px; 
+    position: relative;
+}
+
+.img-header1{
+    width: 290px;
+    margin-left: 260px;
+    margin-top: 100px;
+}
+
+.img-header2{
+    width: 290px;
+    margin-left: 280px;
+    margin-top: 100px;
+}
+
+.img-header3{
+    position: absolute;
+    left: 105px;
+    bottom: -130px;
+    width: 800px;
+    height: 530px;
+}
+
+.star{
+    width: 245px;
+    height: 55px;
+}
+
+.war{
+    width: 245px;
+    height: 55px;
+}
+
+.kylo-ren{
+    width: 780px;
+    height: 500px;
+}
+
+.caixa-criaçao{
+    position: relative;
+    top: 150px;
+    right: 170px;
+}
+
+.mini-caixa{
+    
+    width: 170px;
+    height: 100px;
+    display: flex;
+    position: relative;
+}
+
+.criar{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-left: 65px ;
+}
+
+.legiao{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 1rem;
+    text-transform: uppercase;
+    align-self: center;
+    margin-bottom: 45px; 
+}
+
+.line-minicaixa{
+    background-color: black;
+    position: absolute;
+    width: 105px;
+    height: 1.5px;
+    top: 53px;
+    left: 66px;
+}
+
+.numeros{
+    display: flex;
+    position: absolute;
+    bottom: 13px;
+    left: 67px;
+}
+
+.numero-04{
+    font-size: 10px;
+    align-self: center;
+    margin-top: 3px;
+}
+
+.menor-maior{
+    background-color: rgba(128, 128, 128, 0.418);
+    width: 6px;
+    height: 8px;
+    align-self: center;
+    margin-left: 3px;
+    margin-top: 2px;
+}
