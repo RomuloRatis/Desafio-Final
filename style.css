@@ -15,7 +15,8 @@ body{
 Header{
     background-image: url(Imagens/star\ uó\ topo.png);
     background-size: cover;
-    background-position: center center;
+    background-repeat: no-repeat;
+    background-position: center;
     width: 100%;
 }
 
@@ -28,23 +29,23 @@ Header{
 }
 
 .img-header1{
-    width: 290px;
-    margin-left: 260px;
+    width: 245px;
+    margin-left: 280px;
     margin-top: 100px;
 }
 
 .img-header2{
-    width: 290px;
-    margin-left: 280px;
+    width: 245px;
+    margin-left: 260px;
     margin-top: 100px;
 }
 
 .img-header3{
     position: absolute;
-    left: 105px;
-    bottom: -130px;
-    width: 800px;
-    height: 530px;
+    left: 120px;
+    top: 0px;
+    width: 70%;
+    height: 470px;
 }
 
 .star{
@@ -58,8 +59,8 @@ Header{
 }
 
 .kylo-ren{
-    width: 780px;
-    height: 500px;
+    width: 98%;
+    height: 470px;
 }
 
 .caixa-criaçao{
@@ -69,7 +70,6 @@ Header{
 }
 
 .mini-caixa{
-    
     width: 170px;
     height: 100px;
     display: flex;
@@ -122,4 +122,512 @@ Header{
     align-self: center;
     margin-left: 3px;
     margin-top: 2px;
+    cursor: pointer;
+}
+
+@media(max-width: 955px){
+    
+    .img-header1{
+        width: 270px;
+        margin-left: 240px;
+        margin-top: 100px;
+    }
+    
+    .img-header2{
+        width: 270px;
+        margin-left: 200px;
+        margin-top: 100px;
+    }
+
+    .img-header3{
+        left: 90px;
+        width: 70%;
+        height: 450px;
+    }
+
+}
+
+@media(max-width: 856px){
+
+    .container-header{
+        height: 320px;
+    }
+
+    .img-header1{
+        width: 205px;
+        margin-left: 240px;
+        margin-top: 100px;
+    }
+    
+    .img-header2{
+        width: 205px;
+        margin-left: 200px;
+        margin-top: 100px;
+    }
+
+    .img-header3{
+        left: 80px;
+        width: 70%;
+        height: 450px;
+    }
+
+    .star{
+        width: 205px;
+        height: 55px;
+    }
+    
+    .war{
+        width: 205px;
+        height: 55px;
+    }
+    
+    .kylo-ren{
+        width: 100%;
+        height: 390px;
+    }
+ 
+    .criar{
+        font-size: 0.8rem;
+        margin-left: 85px ;
+    }
+    
+    .legiao{
+        font-size: 0.8rem;
+        margin-bottom: 55px; 
+    }
+    
+    .line-minicaixa{
+        width: 85px;
+        height: 1.5px;
+        top: 40px;
+        left: 85px;
+    }
+    
+    .numeros{
+        display: flex;
+        position: absolute;
+        bottom: 30px;
+        left: 85px;
+    }
+
+    .numero-01{
+        font-size: 15px;
+    }
+    
+    .numero-04{
+        font-size: 9px;
+        margin-top: 3px;
+    }
+    
+    .menor-maior{
+        width: 4px;
+        height: 6px;
+        margin-left: 3px;
+        margin-top: 2px;
+    }
+}
+
+@media(max-width: 730px){
+
+    .container-header{
+        height: 270px; 
+    }
+
+    .img-header1{
+        width: 205px;
+        margin-left: 140px;
+        margin-top: 70px;
+    }
+    
+    .img-header2{
+        width: 205px;
+        margin-left: 160px;
+        margin-top: 70px;
+    }
+
+    .img-header3{
+        left: 75px;
+        width: 65%;
+        height: 325px;
+    }
+
+    .star{
+        width: 150px;
+        height: 35px;
+    }
+    
+    .war{
+        width: 150px;
+        height: 35px;
+    }
+    
+    .kylo-ren{
+        width: 100%;
+        height: 325px;
+    }
+
+    .caixa-criaçao{
+        top: 130px;
+        right: 100px;
+    }
+
+    .mini-caixa{
+        width: 100px;
+        height: 100px;
+    }
+
+    .criar{
+        font-size: 0.6rem;
+        margin-left: 25px ;
+    }
+    
+    .legiao{
+        font-size: 0.6rem;
+        margin-bottom: 67px; 
+        margin-right: 10px;
+    }
+    
+    .line-minicaixa{
+        width: 67px;
+        height: 1.5px;
+        top: 30px;
+        left: 25px;
+    }
+    
+    .numeros{
+        bottom: 50px;
+        left: 27px;
+    }
+
+    .numero-01{
+        font-size: 15px;
+    }
+    
+    .numero-04{
+        font-size: 9px;
+        margin-top: 3px;
+    }
+    
+    .menor-maior{
+        width: 4px;
+        height: 6px;
+        margin-left: 3px;
+        margin-top: 2px;
+    }
+}
+
+@media(max-width: 620px){
+
+    .container-header{
+        height: 190px;
+    }
+
+    .img-header1{
+        width: 120px;
+        margin-left: 105px;
+        margin-top: 60px;
+    }
+    
+    .img-header2{
+        width: 120px;
+        margin-left: 90px;
+        margin-top: 60px;
+    }
+
+    .img-header3{
+        left: 65px;
+        width: 65%;
+        height: 245px;
+    }
+
+    .star{
+        width: 120px;
+        height: 35px;
+    }
+    
+    .war{
+        width: 120px;
+        height: 35px;
+    }
+    
+    .kylo-ren{
+        width: 90%;
+        height: 245px;
+    }
+
+    .caixa-criaçao{
+        height: 60px;
+        top: 90px;
+        right: 105px;
+    }
+
+    .mini-caixa{
+        width: 100px;
+        height: 60px;
+    }
+
+    .criar{
+        font-size: 0.5rem;
+        margin-left: 25px ;
+    }
+    
+    .legiao{
+        font-size: 0.5rem;
+        margin-bottom: 32px; 
+        margin-right: 22px;
+    }
+    
+    .line-minicaixa{
+        width: 56px;
+        height: 1.3px;
+        top: 25px;
+        left: 25px;
+    }
+    
+    .numeros{
+        bottom: 15px;
+        left: 25px;
+    }
+
+    .numero-01{
+        font-size: 12px;
+    }
+    
+    .numero-04{
+        font-size: 8px;
+        margin-top: 3px;
+    }
+}
+
+@media(max-width: 570px){
+
+    .container-header{
+        height: 170px;
+    }
+
+    .img-header1{
+        width: 100px;
+        margin-left: 95px;
+        margin-top: 50px;
+    }
+    
+    .img-header2{
+        width: 100px;
+        margin-left: 75px;
+        margin-top: 50px;
+    }
+
+    .img-header3{
+        left: 65px;
+        width: 65%;
+        height: 210px;
+    }
+
+    .star{
+        width: 100px;
+        height: 25px;
+    }
+    
+    .war{
+        width: 100px;
+        height: 25px;
+    }
+    
+    .kylo-ren{
+        width: 85%;
+        height: 210px;
+    }
+
+    .caixa-criaçao{
+        height: 45px;
+        top: 65px;
+        right: 95px;
+    }
+
+    .mini-caixa{
+        width: 100px;
+        height: 60px;
+    }
+
+    .criar{
+        font-size: 0.4rem;
+        margin-left: 25px ;
+    }
+    
+    .legiao{
+        font-size: 0.4rem;
+        margin-bottom: 40px; 
+        margin-right: 32px;
+    }
+    
+    .line-minicaixa{
+        width: 45px;
+        height: 1.3px;
+        top: 20px;
+        left: 25px;
+    }
+    
+    .numeros{
+        bottom: 8px;
+        left: 25px;
+    }
+
+    .numero-01{
+        font-size: 10px;
+    }
+    
+    .numero-04{
+        font-size: 7px;
+        margin-top: 3px;
+    }
+}
+
+@media(max-width: 505px){
+
+    .container-header{
+        height: 130px;
+    }
+
+    .img-header1{
+        width: 70px;
+        margin-left: 85px;
+        margin-top: 30px;
+    }
+    
+    .img-header2{
+        width: 70px;
+        margin-left: 105px;
+        margin-top: 30px;
+    }
+
+    .img-header3{
+        top: -15px;
+        left: 70px;
+        width: 80%;
+        height: 180px;
+    }
+
+    .star{
+        width: 80px;
+        height: 25px;
+    }
+    
+    .war{
+        width: 80px;
+        height: 25px;
+    }
+    
+    .kylo-ren{
+        width: 65%;
+        height: 180px;
+    }
+
+    .caixa-criaçao{
+        height: 45px;
+        top: 55px;
+        right: 60px;
+    }
+
+    .mini-caixa{
+        width: 100px;
+        height: 60px;
+    }
+
+    .criar{
+        font-size: 0.4rem;
+        margin-left: 25px ;
+    }
+    
+    .legiao{
+        font-size: 0.4rem;
+        margin-bottom: 40px; 
+        margin-right: 32px;
+    }
+    
+    .line-minicaixa{
+        width: 45px;
+        height: 1.3px;
+        top: 20px;
+        left: 25px;
+    }
+    
+    .numeros{
+        bottom: 8px;
+        left: 25px;
+    }
+
+    .numero-01{
+        font-size: 10px;
+    }
+    
+    .numero-04{
+        font-size: 7px;
+        margin-top: 3px;
+    }
+
+}
+@media(max-width: 400px){
+    
+    .img-header3{
+        top: -15px;
+        left: 50px;
+        width: 85%;
+        height: 180px;
+    }
+
+}
+
+@media(max-width: 360px){
+
+    .img-header1{
+        width: 70px;
+        margin-left: 75px;
+        margin-top: 30px;
+    }
+    
+    .img-header2{
+        width: 70px;
+        margin-left: 65px;
+        margin-top: 30px;
+    }
+
+    .img-header3{
+        top: -15px;
+        left: 40px;
+        width: 85%;
+        height: 180px;
+    }
+
+    .star{
+        width: 65px;
+        height: 20px;
+    }
+    
+    .war{
+        width: 65px;
+        height: 20px;
+    }
+
+}
+
+@media(max-width: 320px){
+
+    .img-header1{
+        width: 70px;
+        margin-left: 90px;
+        margin-top: 30px;
+    }
+    
+    .img-header2{
+        width: 70px;
+        margin-left: 65px;
+        margin-top: 30px;
+    }
+
+    .img-header3{
+        top: -15px;
+        left: 35px;
+        width: 90%;
+        height: 180px;
+    }
 }
