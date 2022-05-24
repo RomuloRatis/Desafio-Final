@@ -17,7 +17,11 @@ Header{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    width: 100%;
+}
+
+main{
+    background-image: url(Imagens/fundo-main.png);
+    background-repeat: no-repeat;
 }
 
 .container-header{
@@ -81,7 +85,7 @@ Header{
     font-weight: lighter;
     font-size: 1rem;
     text-transform: uppercase;
-    margin-left: 65px ;
+    margin-left: 66px ;
 }
 
 .legiao{
@@ -94,35 +98,146 @@ Header{
 }
 
 .line-minicaixa{
-    background-color: black;
+    background-color: #000000;
     position: absolute;
     width: 105px;
     height: 1.5px;
-    top: 53px;
+    top: 50px;
     left: 66px;
 }
 
 .numeros{
     display: flex;
     position: absolute;
-    bottom: 13px;
+    bottom: 18px;
     left: 67px;
 }
 
 .numero-04{
     font-size: 10px;
     align-self: center;
-    margin-top: 3px;
+    margin-top: 4px;
 }
 
 .menor-maior{
-    background-color: rgba(128, 128, 128, 0.418);
+    background-color: #8080806b;
     width: 6px;
     height: 8px;
     align-self: center;
     margin-left: 3px;
     margin-top: 2px;
     cursor: pointer;
+}
+
+.informaçoes-iniciais{
+    margin: 0 auto;
+    justify-content: space-between;
+    display: flex;
+    width: 95%;
+    height: 300px;
+}
+
+.soldier-red{
+    background-image: url(Imagens/soldier-red.png);
+    background-size: cover;
+    background-position: center center;
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 20px;
+    left: 150px;
+}
+
+.comece{
+    width: 110px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 30px;
+    color: #ffffff;
+    margin-top: 15px;
+}
+
+.baixe-jogo{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 10px;
+    text-align: start;
+    color: #c9c8c8;
+    text-align: justify;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.botao-download{
+    color: #c9c8c8;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 10px;
+    text-transform: uppercase;
+    border: 1px solid #ffffff;
+    border-radius: 3px;
+    padding: 6px 20px;
+    cursor: pointer;
+}
+
+.update{
+    color: #dfdbdb;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 5px;
+    font-weight: lighter;
+    align-self: flex-end;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+.introduçao{
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    width: 480px;
+    height: 132px;
+    margin-right: 60px;
+    margin-bottom: 20px;
+}
+
+.sobre{
+    width: 270px;
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-right: 5px;
+}
+
+.sobre-jogo{
+    font-size: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.sobre p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    width: 260px;
+    text-align: end;
+}
+
+.line-main{
+    background-color: black;
+    width: 100px;
+    height: 2px;
+}
+
+.img-front{
+    width: 207px;
+
 }
 
 @media(max-width: 955px){
