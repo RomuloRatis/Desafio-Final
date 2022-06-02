@@ -125,7 +125,7 @@ Header{
 }
 
 .main-parte-um{
-    background-image: url(Imagens/fundo-main.png);
+    background-image: url(Imagens/fundo-main1.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: left;
@@ -259,6 +259,7 @@ Header{
 .lord{
     position: relative;
     top: 30px;
+    left: 90px;
 }
 
 .img-lord{
@@ -281,6 +282,7 @@ Header{
     flex-direction: column;
     align-items: flex-end;
     margin-top: 70px;
+    z-index: 5;
 }
 
 .titulo-estrutura{
@@ -339,10 +341,440 @@ li{
 li:hover{
     background-color: #D74430;
     color:#ffffff;
+    cursor: pointer;
 }
 
-.caixa-atributos{
-    background-image: url(Imagens/fundo-main2.png);
+.caixa-parte-dois{
+    background-color: #2D2D2D;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-atributo{
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    text-transform: uppercase;
+    align-self: flex-start;
+    margin: 60px 0px 30px 150px;
+}
+
+.caracteristicas{
+    display: flex;
+    width: 86.5%;
+}
+
+.caracteristicas-1{
+    width: 50%;
+}
+
+.img-atributos1{
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+.img-principal{
+    width: 100%;
+}
+
+.caracteristicas-2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.img-atributos2{
+    position: relative;
+    width: 50%;
+    margin-bottom: -4px;
+}
+
+.balao1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.balao2{
+    width: 100%;
+    height: 97%;
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.img-atributos1:hover .balao1{
+    background-color: #D74430;
+    display: flex;
+    opacity: 0.6;
+    padding: 10px;
+}
+
+.img-atributos2:hover .balao2{
+    background-color: #D74430;
+    display: flex;
+    opacity: 0.6;
+    padding: 10px;
+}
+
+.linha-horizontal0{
+    position: inherit;
+    background-color: #ffffff;
+    width: 20px;
+    height: 2px;
+    top: 20px;
+}
+
+.linha-vertical0{
+    position: inherit;
+    background-color: #ffffff;
+    width: 2px;
+    height: 20px;
+    top: 20px;
+}
+
+.linha-horizontal1{
+    position:absolute;
+    background-color: #ffffff;
+    width: 20px;
+    height: 2px;
+    left: 430px;
+    bottom: 49px;
+}
+
+.linha-vertical1{
+    position: absolute;
+    background-color: #ffffff;
+    width: 2px;
+    height: 20px;
+    left: 448px;
+    bottom: 49px;
+}
+
+.linha-horizontal2{
+    position: inherit;
+    background-color: #ffffff;
+    width: 20px;
+    height: 2px;
+    top: 20px;
+}
+
+.linha-vertical2{
+    position: inherit;
+    background-color: #ffffff;
+    width: 2px;
+    height: 20px;
+    top: 20px;
+}
+
+.linha-horizontal3{
+    position:absolute;
+    background-color: #ffffff;
+    width: 20px;
+    height: 2px;
+    left: 190px;
+    bottom: 21px;
+}
+
+.linha-vertical3{
+    position: absolute;
+    background-color: #ffffff;
+    width: 2px;
+    height: 20px;
+    left: 208px;
+    bottom: 22px;
+}
+
+.titulo-graficos0{
+    width: 50px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 900;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.titulo-graficos{
+    width: 50px;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    font-weight: 900;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.balao1 p{
+    width: 200px;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.6rem;
+    margin-left: 9px;
+}
+
+.balao2 p{
+    width: 170px;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.5rem;
+    margin-left: 9px;
+}
+
+.botao{
+    text-align: center;
+    width: 80px;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.5rem;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.img-secundaria{
+    width: 100%;
+}
+
+.fig-hierarquia{
+    width: 86.5%;
+}
+
+.img-hierarquia{
+   width: 100%;
+   height: 100%;
+   margin: 30px 0px 10px;
+}
+
+.atençao{
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 9px;
+    text-align: end;
+    width: 400px;
+    align-self: flex-end;
+    margin-right: 80px;
+}
+
+.como-jogar{
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 90px 0px 90px 60px;
+}
+
+.main-parte-tres{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 280px;
+}
+
+.trooper{
+    width: 280px;
+    position: relative;
+    left: 30px;
+    bottom: 140px;
+}
+
+.trooper-capa{
+    width: 100%; 
+}
+
+.caixa-botoes{
+    display: flex;
+    justify-content: space-evenly;
+    width: 55%;
+    margin-right: 35px;
+}
+
+.caixa-botoes1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+}
+
+.caixa-botoes1:hover .line-p{
+    background-color: #D74430;
+}
+
+.titulo-01{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+}
+
+.download-2{
+    background-color: #000000;
+    color: #ffffff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    overflow: hidden;
+    padding: 5px 15px;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.download-2::before{
+    content: "";
+    transition: 1s;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    width: 0%;
+    height: 100%;
+    background-color: #D74430;
+    z-index: -1;
+}
+
+.download-2:hover::before{
+    width: 100%;
+}
+
+
+.baixe-o-jogo{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #575757;
+    width: 90PX;
+    font-size: 10px;
+}
+
+.Selecione{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #575757;
+    width: 60PX;
+    font-size: 10px;
+}
+
+.Conquiste{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: #575757;
+    width: 50PX;
+    font-size: 10px;
+}
+
+.line-p{
+    background-color: #000000;
+    width: 45px;
+    height: 2px;
+}
+
+.footer{
+    display: flex;
+    width: 100%;
+    height: 410px;
+}
+
+.caixa-footer{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: #FF5A56;
+}
+
+.aplicativos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 270px;
+    height: 180px;
+    margin-left: 140px;
+}
+
+.titulo-aplicativo{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.aplicativos p{
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    width: 270px;
+    font-size: 10px;
+}
+
+.botoes-icones{
+    display: flex;
+}
+
+.google{
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.apple{
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.line-footer{
+    width: 270px;
+    height: 1px;
+    background-color: #000000;
+    margin: 15px 0px;
+    margin-left: 140px;
+}
+
+.starwars-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 270px;
+    height: 160px;
+    margin-left: 140px;
+}
+
+.img-footer{
+    width: 110px;
+}
+
+.starwars-footer p{
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    width: 258px;
+    font-size: 10px;
+}
+
+.caixa-white{
+    width: 35%;
+}
+
+.caixa-vader{
+    position: relative;
+    right: 90px;
+    bottom: 60px;
+    width: 350px;
+    height: 450px;
+}
+
+.vader{
+    width: 100%;
 }
 
 @media(max-width: 955px){
@@ -375,11 +807,74 @@ li:hover{
         margin-left: 85px;
     }
 
-
     .menu{
         margin-top: 70px;
         margin-right: 60px;
     }
+
+    .linha-horizontal1{
+        left: 360px;
+        bottom: 39px;
+    }
+    
+    .linha-vertical1{
+        left: 378px;
+        bottom: 39px;
+    }
+  
+    .linha-horizontal3{
+        left: 170px;
+        bottom: 21px;
+    }
+    
+    .linha-vertical3{
+        left: 188px;
+        bottom: 22px;
+    }
+
+}
+
+@media(max-width: 900px){
+
+    .linha-horizontal1{
+        left: 330px;
+        bottom: 39px;
+    }
+    
+    .linha-vertical1{
+        left: 348px;
+        bottom: 41px;
+    }
+  
+    .linha-horizontal3{
+        left: 155px;
+        bottom: 15px;
+    }
+    
+    .linha-vertical3{
+        left: 173px;
+        bottom: 16px;
+    }
+
+    .titulo-graficos0{
+        font-size: 0.8rem;
+    }
+    
+    .titulo-graficos{
+        font-size: 0.5rem;
+    }
+    
+    .balao2 p{
+        width: 125px;
+        font-size: 0.5rem;
+    }
+    
+    .botao{
+        width: 65px;
+        font-size: 0.5rem;
+        padding: 2px 8px;
+    }
+
 }
 
 @media(max-width: 873px){
@@ -562,6 +1057,30 @@ li:hover{
     }
 }
 
+@media(max-width: 856px){
+
+    .linha-horizontal1{
+        left: 270px;
+        bottom: 34px;
+    }
+    
+    .linha-vertical1{
+        left: 288px;
+        bottom: 36px;
+    }
+  
+    .linha-horizontal3{
+        left: 130px;
+        bottom: 13px;
+    }
+    
+    .linha-vertical3{
+        left: 148px;
+        bottom: 15px;
+    }
+
+}
+
 @media(max-width: 795px){
 
     .informaçoes-iniciais{
@@ -634,6 +1153,93 @@ li:hover{
         width: 140px;
         height: 265px;
     }
+}
+
+@media(max-width: 745px){
+
+    .footer{
+        flex-direction: column;
+        height: 700px;
+    }
+
+    .caixa-footer{
+        justify-content: flex-start;
+        align-items: center;
+        width: 100%;
+        height: 550px;  
+    }
+
+    .aplicativos, .line-footer, .starwars-footer{
+        margin-left: 0;
+    }
+
+    .caixa-white{
+        width: 100%;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .caixa-vader{
+        position: static;
+        width: 360px;
+        height: 460px;
+    }
+
+}
+
+@media(max-width: 745px){
+
+    .linha-horizontal1{
+        left: 210px;
+        bottom: 29px;
+    }
+    
+    .linha-vertical1{
+        left: 228px;
+        bottom: 31px;
+    }
+
+    .linha-horizontal2{
+       width: 13px; 
+       top: 10px;
+    }
+    
+    .linha-vertical2{
+        height: 13px;
+        top: 10px;
+    }
+  
+    .linha-horizontal3{
+        width: 13px;
+        left: 112px;
+        bottom: 8px;
+    }
+    
+    .linha-vertical3{
+        height: 13px;
+        left: 123px;
+        bottom: 10px;
+    }
+
+    .titulo-graficos{
+        font-size: 0.4rem;
+        margin-bottom: 5px;
+    }
+    
+    .balao2 p{
+        width: 100px;
+        font-size: 0.4rem;
+        margin-bottom: 5px;
+    }
+    
+    .botao{
+        width: 65px;
+        font-size: 0.4rem;
+        padding: 2px 0px;
+    }
+
 }
 
 @media(max-width: 730px){
@@ -844,6 +1450,158 @@ li:hover{
     li{
         padding: 0px 5px;
         font-size: 1.1em;
+    }
+
+}
+
+@media(max-width: 660px){
+
+    .main-parte-tres{
+        height: 270px;
+    }
+
+    .atençao{
+        font-size: 8px;
+        width: 270px;
+        margin-right: 50px;
+    }
+    
+    .como-jogar{
+        font-size: 1rem;
+        margin: 40px 55px 90px 0px;
+        align-self: flex-end;
+    }
+
+    .trooper{
+        position: static;
+        width: 190px; 
+        margin-left: 100px;
+        margin-bottom: 70px;
+    }
+
+    .trooper-capa{
+        width: 200px;
+        position: relative;
+        right: 79px;
+    }
+
+    .caixa-botoes{
+        flex-direction: column;
+        width: 150px;
+        height: 240px;
+        margin-bottom: 0px;
+    }
+
+    .caixa-botoes1{
+        height: 70px;
+    }
+
+    .titulo-01{
+        font-size: 0.7rem;
+    }
+    
+    .download-2{
+        font-size: 0.5rem;
+    }  
+    
+    .baixe-o-jogo{
+        width: 90PX;
+        font-size: 8px;
+    }
+    
+    .Selecione{
+        width: 45px;
+        font-size: 8px;
+    }
+    
+    .Conquiste{
+        width: 50PX;
+        font-size: 8px;
+    }
+    
+    .line-p{
+        background-color: #000000;
+        width: 35px;
+        height: 2px;
+    }
+
+    .footer{
+        height: 550px;
+    }
+
+    .caixa-footer{
+        align-items: center;
+        width: 100%;
+        height: 430px;  
+    }
+
+    .aplicativos{
+        align-items: center;
+        width: 210px;
+        height: 130px;
+    }
+   
+    .aplicativos p{
+        width: 170px;
+        font-size: 8px;
+    }
+    
+    .google{
+        width: 90px;
+        height: 30px;
+    }
+    
+    .apple{
+        width: 90px;
+        height: 30px;
+    }
+    
+    .line-footer{
+        width: 190px;  
+        margin: 0; 
+    }
+    
+    .starwars-footer{
+        align-items: center;
+        width: 210px;
+        height: 130px; 
+    }
+    
+    .img-footer{
+        width: 80px;
+    }
+    
+    .starwars-footer p{
+        width: 170px;
+        font-size: 8px;
+    }
+
+    .aplicativos, .line-footer, .starwars-footer{
+        margin-left: 0;
+    }
+
+    .caixa-white{
+        height: 70px;
+    }
+
+    .caixa-vader{
+        position: static;
+        width: 280px;
+        height: 380px;
+    }
+
+}
+
+@media(max-width: 635px){
+
+    .linha-horizontal3{
+        left: 112px;
+        bottom: 6px;
+    }
+    
+    .linha-vertical3{
+        left: 124px;
+        bottom: 7px;
     }
 
 }
@@ -1111,6 +1869,105 @@ li:hover{
         margin-left: 55px;
         margin-top: 130px;
     }
+    
+    .caracteristicas{
+        flex-direction: column;
+    }
+
+    .caracteristicas-1{
+        width: 100%;
+    }
+
+    .img-atributos1{
+        width: 100%;
+    }
+
+    .caracteristicas-2{
+        width: 100%;
+
+    }
+
+    .img-atributos2{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .img-secundaria{
+        width: 100%;
+    }
+
+    .balao2{
+        height: 100%;
+    }
+
+    .linha-horizontal0{
+        width: 20px;
+    }
+    
+    .linha-vertical0{
+        width: 2px;
+    }
+    
+    .linha-horizontal1{
+        width: 20px;
+        height: 2px;
+        left: 400px;
+        bottom: 50px;
+    }
+    
+    .linha-vertical1{
+        width: 2px;
+        height: 20px;
+        left: 419px;
+        bottom: 50px;
+    }
+    
+    .linha-horizontal2{
+        width: 20px;
+        height: 2px;
+        top: 20px;
+    }
+    
+    .linha-vertical2{
+        width: 2px;
+        height: 20px;
+        top: 20px;
+    }
+    
+    .linha-horizontal3{
+        width: 20px;
+        height: 2px;
+        left: 400px;
+        bottom: 50px;
+    }
+    
+    .linha-vertical3{
+        width: 2px;
+        height: 20px;
+        left: 419px;
+        bottom: 50px;
+    }
+    
+    .titulo-graficos0, .titulo-graficos{
+        font-size: 1rem;
+    }
+
+    .balao1 p{
+        width: 220px;
+        font-size: 0.7rem;
+    }
+    
+    .balao2 p{
+        width: 220px;
+        font-size: 0.7rem;  
+    }
+    
+    .botao{
+        width: 80px;
+        border: 2px solid #ffffff;
+        font-size: 0.5rem;
+        padding: 5px 10px;
+    }
 
 }
 
@@ -1195,6 +2052,54 @@ li:hover{
         font-size: 7px;
         margin-top: 3px;
     }
+}
+
+@media(max-width: 570px){
+
+    .linha-horizontal1{
+        left: 330px;
+        bottom: 44px;
+    }
+
+    .linha-vertical1{
+        left: 350px;
+        bottom: 44px;
+    }
+
+    .linha-horizontal3{
+        left: 330px;
+        bottom: 44px;
+    }
+
+    .linha-vertical3{
+        left: 350px;
+        bottom: 44px;
+    }
+
+}
+
+@media(max-width: 570px){
+
+    .linha-horizontal1{
+        left: 300px;
+        bottom: 40px;
+    }
+
+    .linha-vertical1{
+        left: 319px;
+        bottom: 40px;
+    }
+
+    .linha-horizontal3{
+        left: 300px;
+        bottom: 40px;
+    }
+
+    .linha-vertical3{
+        left: 319px;
+        bottom: 40px;
+    }
+
 }
 
 @media(max-width: 505px){
@@ -1301,6 +2206,61 @@ li:hover{
         
 }
 
+@media(max-width: 470px){
+
+    .linha-horizontal1{
+        left: 290px;
+        bottom: 35px;
+    }
+
+    .linha-vertical1{
+        left: 310px;
+        bottom: 35px;
+    }
+
+    .linha-horizontal3{
+        left: 290px;
+        bottom: 35px;
+    }
+
+    .linha-vertical3{
+        left: 310px;
+        bottom: 35px;
+    }
+
+}
+
+@media(max-width: 445px){
+
+    .caixa-botoes{
+        margin-right: 100px;
+    }
+}
+
+@media(max-width: 430px){
+
+    .linha-horizontal1{
+        left: 280px;
+        bottom: 29px;
+    }
+
+    .linha-vertical1{
+        left: 300px;
+        bottom: 29px;
+    }
+
+    .linha-horizontal3{
+        left: 280px;
+        bottom: 29px;
+    }
+
+    .linha-vertical3{
+        left: 300px;
+        bottom: 29px;
+    }
+
+}
+
 @media(max-width: 400px){
     
     .img-header3{
@@ -1308,6 +2268,51 @@ li:hover{
         left: 50px;
         width: 85%;
         height: 180px;
+    }
+
+}
+
+@media(max-width: 380px){
+
+    .atençao{
+        width: 230px;
+    }
+    
+    .trooper{
+        overflow: hidden;   
+        margin-left: -10px;
+    }
+
+    .trooper-capa{
+        right: 80px;
+    }
+
+    .caixa-botoes{
+        margin-right: 0px;
+    }
+
+}
+
+@media(max-width: 380px){
+
+    .linha-horizontal1{
+        left: 250px;
+        bottom: 22px;
+    }
+
+    .linha-vertical1{
+        left: 270px;
+        bottom: 22px;
+    }
+
+    .linha-horizontal3{
+        left: 250px;
+        bottom: 22px;
+    }
+
+    .linha-vertical3{
+        left: 270px;
+        bottom: 22px;
     }
 
 }
@@ -1349,7 +2354,6 @@ li:hover{
         margin-right: 85px;
         margin-top: 45px;
         position: static;
-        z-index: 1;
     }
 
     .titulo-estrutura{
@@ -1392,6 +2396,39 @@ li:hover{
 
 }
 
+@media(max-width: 340px){
+
+    .titulo-atributo{
+        align-self: center;
+        margin-left: 0;
+    }
+
+    .linha-horizontal1{
+        left: 230px;
+        bottom: 18px;
+    }
+
+    .linha-vertical1{
+        left: 250px;
+        bottom: 18px;
+    }
+
+    .linha-horizontal3{
+        left: 230px;
+        bottom: 18px;
+    }
+
+    .linha-vertical3{
+        left: 250px;
+        bottom: 18px;
+    }
+
+    .caixa-botoes{
+        margin-right: 50px;
+    }
+
+}
+
 @media(max-width: 320px){
 
     .img-header1{
@@ -1412,4 +2449,12 @@ li:hover{
         width: 90%;
         height: 180px;
     }
+
+    .line-divisao{
+        width: 78%;
+        margin-left: 39px;
+        background-color: #838282;
+        height: 4px;
+    }
+
 }
